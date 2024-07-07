@@ -37,7 +37,7 @@ padding:10px;
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9,30, 0.7), rgba(4,9,30,0.7)), url(https://github.com/Imran627/uniweb/blob/main/assets/banner.png);
+    background-image: linear-gradient(rgba(4, 9,30, 0.7), rgba(4,9,30,0.7)), url(./assets/banner.png);
     background-position: center;
     background-size: cover;
     position: relative;
