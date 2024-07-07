@@ -1,0 +1,59 @@
+
+
+
+@media (max-width:700px) {
+
+    .text-box h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text-box{
+        align-items: center;
+    }
+
+
+
+    .nav-link ul, li, a{
+        display: block;
+       
+    }
+    
+    .nav-link{
+        position: absolute;
+        height: 100vh;
+        background-color: orange;
+        right: -200px;
+        top: 0;
+        width: 200px;
+        z-index: 2;
+        text-align: left;
+        transition: 1s;
+    }
+    
+   nav .fa-solid {
+        display: block !important;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-link ul {
+        padding: 30px;
+    }
+
+    .course-col{
+        width: 100%;
+    }
+
+    .campus-col{
+        width: 100%;
+    }
+
+    .row{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
