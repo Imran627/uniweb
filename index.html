@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <nav>
+        <a href="#" class="company-logo"> <img src="./assets/logo.png" alt=""></a>
+        <div class="nav-link" id="nav_link">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Course</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+           
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's biggest university</h1>
+            <p>Making wbsite is now one of the easiest thing in the world . You just need to learn HTML, CSS, Javascript and you are good to go.</p>
+            <a class="visit-btn" href="#">Visit Us To Know More</a> 
+        </div>
+    </div>
+
+
+    <!-- course-section start -->
+
+
+      <div class="container flex ">
+        <div class="header-section ">
+            <h1>Courses We Offer</h1>
+            <p>lorem ipsum dolor sit amet, consection adipiscing elit.</p>
+        </div>
+    </div>
+
+        <div class="container">
+            <div class="row">
+       
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt consectetur deserunt? Tempora tenetur ex culpa natus sit deserunt eveniet atque omnis officiis ullam! Quos sed tenetur mollitia deserunt odio.</p>
+                
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt consectetur deserunt? Tempora tenetur ex culpa natus sit deserunt eveniet atque omnis officiis ullam! Quos sed tenetur mollitia deserunt odio.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduction</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt consectetur deserunt? Tempora tenetur ex culpa natus sit deserunt eveniet atque omnis officiis ullam! Quos sed tenetur mollitia deserunt odio.</p>
+
+            </div>
+        </div>
+      </div>
+
+      <!-- --------campus------ -->
+
+      <div class="container flex">
+        <div class="header-section">
+            <h1>Gloable campus</h1>
+            <p>lorem ipsum dolor sit amet, consection adipiscing elit.</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <div class="campus-col">
+                <img src="./assets/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./assets/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./assets/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHIGTON</h3>
+                </div>
+            </div>
+        </div>
+      </div>
+
+<!-- --------Facilities ----------- -->
+<div class="container flex">
+    <div class="header-section">
+        <h1>Our Facilities</h1>
+        <p>lorem ipsum dolor sit amet, consection adipiscing elit.</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+    <div class="facilities-col">
+        <img src="./assets/library.png" alt="">
+        <h3>World class library</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt consectetur deserunt? Tempora tenetur ex culpa natus sit deserunt eveniet atque omnis officiis ullam! Quos sed tenetur mollitia deserunt odio.</p>
+        
+    </div>
+    <div class="facilities-col">
+        <img src="./assets/basketball.png" alt="">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt consectetur deserunt? Tempora tenetur ex culpa natus sit deserunt eveniet atque omnis officiis ullam! Quos sed tenetur mollitia deserunt odio.</p>
+        
+    </div>
+    <div class="facilities-col">
+        <img src="./assets/cafeteria.png" alt="">
+        <h3>Tasty and Health Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium nesciunt consectetur deserunt? Tempora tenetur ex culpa natus sit deserunt eveniet atque omnis officiis ullam! Quos sed tenetur mollitia deserunt odio.</p>
+        
+    </div>
+    </div>
+    </div>
+
+
+
+    <script>
+        var navlink = document.getElementById("nav_link");
+   function showMenu(){
+    console.log(navlink)
+    navlink.style.right ='0';
+    // navlink.style.right = "0";
+   }
+
+   function hideMenu(){
+    navlink.style.right ="-200px";
+
+   }
+
+
+    </script>
+      
+      <!-- <script>
+   
+
+
+var navlink =document .getElementById ("navlink");
+function showMenu(){
+navlink.style.right ="0";
+}
+
+function hideMenu(){
+navlink.style.right ="-200px";
+}
+
+    </script> -->
+</body>
+</html>
